@@ -5,13 +5,14 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ProcessoSeletivo {
  public static void main(String[] args) {
      System.out.println("Processo seletivo ");
+
    // analisarCandidato(2000.0);
    // valorPretendido();
    // selecaoCandidatos();
    // imprimindoSelecionados();
    // System.out.println(" ");
 
-    String [] candidatos = {"LAURA", "MARCIA", "MARCOS", "FONSECA", "LUIZ"};
+    String [] candidatos = {"LAURA", "MARCIA", "MARCOS", "FONSECA", "LUIZ" , "ANA"};
     for(String candidato : candidatos){
         entrandoEmContato(candidato);
     }
